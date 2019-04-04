@@ -5,11 +5,11 @@ const GAME = {
 
     obstacle: {
         speed: 10,
-        acceleration: 0.001,
+        acceleration: 0.0003,
         minH: 70,
         maxH: 110,
         minW: 10,
-        maxW: 20
+        maxW: 40
     },
 
     player: {
