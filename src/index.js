@@ -29,7 +29,7 @@ window.setup = function () {
     createObstacle();
 }
 
-window.draw = function () { 
+window.draw = function () {
     background(220);
     fill("gray");
     noStroke();
@@ -53,5 +53,6 @@ window.draw = function () {
         player.move();
     } else {
         player.y = Game.height - Game.ground.height - Game.player.radius;
+        player.isJumping = false;
     }
 }

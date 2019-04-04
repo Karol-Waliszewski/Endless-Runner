@@ -7,6 +7,7 @@ class Player {
         this.r = r;
         this.color = "red"
         this.jStrength = r;
+        this.isJumping = false;
     }
     draw() {
         fill(this.color);
@@ -24,8 +25,11 @@ class Player {
     }
 
     jump() {
-        this.vy = 0;
-        this.vy -= this.jStrength;
+        if (!this.isJumping) {
+            this.isJumping = true;
+            this.vy = 0;
+            this.vy -= this.jStrength;
+        }
     }
 }
 
