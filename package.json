@@ -1,10 +1,10 @@
 {
   "name": "endless-runner",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "version": "1.0.1",
+  "description": "Simple endless runner game.",
   "scripts": {
-    "start": "webpack --mode=development"
+    "start": "webpack --mode=development",
+    "publish": "gh-pages"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "p5": "^0.7.3"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
