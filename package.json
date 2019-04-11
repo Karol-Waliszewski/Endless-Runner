@@ -1,10 +1,10 @@
 {
   "name": "endless-runner",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple endless runner game.",
   "scripts": {
     "start": "webpack --mode=development",
-    "publish": "gh-pages"
+    "ghpages": "gh-pages -d docs"
   },
   "author": "",
   "license": "ISC",

@@ -1,5 +1,5 @@
 Arguments: 
-  /home/karol/.nvm/versions/node/v11.2.0/bin/node /usr/bin/yarn publish
+  /home/karol/.nvm/versions/node/v11.2.0/bin/node /usr/bin/yarn ghpages
 
 PATH: 
   /home/karol/.nvm/versions/node/v11.2.0/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/karol/Android/Sdk/tools:/home/karol/Android/Sdk/tools/bin:/home/karol/Android/Sdk/platform-tools
@@ -16,11 +16,11 @@ Platform:
 npm manifest: 
   {
     "name": "endless-runner",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple endless runner game.",
     "scripts": {
       "start": "webpack --mode=development",
-      "publish": "gh-pages"
+      "ghpages": "gh-pages 'docs'"
     },
     "author": "",
     "license": "ISC",
@@ -2659,7 +2659,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c gh-pages
+  Arguments: -c gh-pages 'docs'
   Directory: /home/karol/Desktop/Projects/Web/Endless-Runner
   Output:
   
